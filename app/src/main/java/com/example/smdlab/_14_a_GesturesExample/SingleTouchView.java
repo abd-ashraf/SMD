@@ -25,7 +25,6 @@ public class SingleTouchView extends View {
         gestureDetector = new GestureDetector(context, new MyGestureListener());
 //        pass the context to this view
         this.context = context;
-
     }
 
 //    make inner class
